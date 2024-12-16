@@ -1,0 +1,7 @@
+/target
+/src/apikey.txt
+/build*
+/aeneas_env*
+/src/whisper_env*
+*.mp4
+*.bin
