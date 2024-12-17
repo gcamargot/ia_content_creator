@@ -2,7 +2,7 @@ use std::fs;
 use std::fs::File;  // Cambiamos esto de tokio a std
 use std::path::{Path, PathBuf};
 use std::error::Error;
-use std::io::{Write};
+use std::io::Write;
 use std::process::Command;
 use std::time::Duration;
 
@@ -11,14 +11,15 @@ use base64;
 use whisper_rs::{WhisperContext,FullParams,SamplingStrategy,WhisperContextParameters,WhisperError};
 use hound;
 
-const MODEL_PATH: &str = "ggml-base.bin";
+const MODEL_PATH: &str = "./res/ggml-base.bin";
+
 
 #[tokio::main]
 async fn main() {
 
     let api_path = Path::new("./src/apikey.txt");
     let audio_path = Path::new("./build/output.wav");
-    let video_path = Path::new("./src/highRes.mp4");
+    let video_path = Path::new("./res/Highres.mp4");
     let apikey = fs::read_to_string(api_path)
         .expect("Should have been able to read the file!");
     let response = request_prompt(apikey.as_str()).await.unwrap();
