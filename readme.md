@@ -1,5 +1,6 @@
-Video Subtitle Overlay Tool
-A robust tool for adding stylized subtitles to videos with a semi-transparent background overlay for enhanced readability.
+# Video Subtitle Overlay Tool
+## A robust tool for adding stylized subtitles to videos with a semi-transparent background overlay for enhanced readability.
+
 ⚡ Features
 
 Custom subtitle rendering with semi-transparent background
