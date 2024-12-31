@@ -1,6 +1,9 @@
-# Video Subtitle Overlay Tool
+# IA Content Creator
+A Rust-based bot designed to automate the creation and distribution of multimedia content. Here's an overview of its workflow:
 
-A robust tool for adding stylized subtitles to videos with a semi-transparent background overlay for enhanced readability.
+Text Content Creation: The bot uses prompts to generate text-based stories via the Gemini platform.
+Video Content Generation: It uses Gemini Text to Speech and Whistler_RS to create a video
+Social Media Uploads: The final output is uploaded to social media platforms, including TikTok, Instagram, and YouTube.
 
 ## ⚡ Features
 
@@ -32,7 +35,7 @@ A robust tool for adding stylized subtitles to videos with a semi-transparent ba
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/video-subtitle-overlay
+git clone https://github.com/gcamargot/video-subtitle-overlay
 
 # Navigate to the project directory
 cd video-subtitle-overlay
