@@ -132,9 +132,6 @@ cargo test
 cargo test subtitle_processing
 ```
 
-## 📖 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## 🙏 Acknowledgments
 
@@ -147,7 +144,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Project Link: [https://github.com/yourusername/video-subtitle-overlay](https://github.com/yourusername/video-subtitle-overlay)
 
 ---
-
-Made with ❤️ by [Your Name]
-
-Feel free to star ⭐ this repository if you find it helpful!
